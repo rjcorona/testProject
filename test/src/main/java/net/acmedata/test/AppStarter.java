@@ -14,7 +14,7 @@ public class AppStarter {
 			.getLogger(AppStarter.class);
 
 	public static void main(String[] args) {
-		LOGGER.info("Starting up...");
+		LOGGER.info("Starting up 2...");
 		try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
 				Config.class)) {
 			LOGGER.info(context.getBean(App.class).getMessage());
