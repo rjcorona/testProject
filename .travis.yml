@@ -1,3 +1,2 @@
 language: java
-script: mvn -f ./test/pom.xml clean validate
-
+script: mvn -f ./test/pom.xml package
