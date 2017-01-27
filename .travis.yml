@@ -1,3 +1,2 @@
 language: java
-script: mvn -f ./test/pom.xml clean verify
-
+script: mvn -f ./test/pom.xml clean validate
